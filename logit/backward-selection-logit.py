@@ -1,3 +1,4 @@
+# import stasmodels.api as sm
 # Function for performing feature selection based on p-values
 def backward_feature_elimination(X, y, significance_level=0.05):
   """
